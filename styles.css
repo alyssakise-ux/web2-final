@@ -6,11 +6,41 @@ html {
   font-size: 10px;
 }
 
+/* NAV */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+nav {
+  padding: 2rem 4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list .side-nav {
+  margin-left: 3rem;
+}
 
 /* LOGO */
 .logo {
-  margin-top: 84px;
+  height: 50px;
 }
 
 /* BASE ELEMENTS */
