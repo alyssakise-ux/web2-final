@@ -105,16 +105,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  display: flex;
-  align-items: center; 
+  margin: 0;
 }
 
-hero-content {
-  margin-left: 103px;  
+.hero-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;           
 }
 
 .hero-content h1 {
