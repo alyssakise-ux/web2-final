@@ -115,6 +115,10 @@ header {
   padding-top: 286px;
 }
 
+.hero-content h3 {
+  margin-top:40px;
+}
+
 .hero-subtag {
   width: 555px;
   height: 63px;
@@ -125,7 +129,6 @@ header {
   width: 617px;
   height: 158px;
   padding-top: 298px;
-  padding-bottom: 60px;
 }
 
 /* LISTS */
