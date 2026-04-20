@@ -97,6 +97,24 @@ header {
   border-bottom: 2px solid #fff3b3;
 }
 
+/* HERO */
+.hero {
+  width: 100vw;
+  height: 805px;
+  background-image: url("images/herobg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.hero-content {
+  width: 478px;
+  height: 280px;
+  margin-left: 103px;
+  padding-top: 286px;
+}
+
 /* LISTS */
 li {
   list-style: none;
