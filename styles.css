@@ -113,12 +113,11 @@ header {
   flex-direction: column;
   margin-left: 103px;
   max-width: 500px; 
-  max-height: 251px;
+  align-content: center;
 }
 
 .hero-content h1 {
   margin-bottom: 40px;
-  
 }
 
 .hero-content h3 {
