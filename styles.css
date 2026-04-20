@@ -115,6 +115,18 @@ header {
   padding-top: 286px;
 }
 
+.hero-subtag {
+  width: 555px;
+  height: 63px;
+  padding-top: 30px;
+}
+
+.hero-tagline {
+  width: 617px;
+  height: 158px;
+  padding-top: 298px;
+}
+
 /* LISTS */
 li {
   list-style: none;
