@@ -105,7 +105,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
+
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
@@ -115,8 +117,13 @@ header {
   max-width: 617px; 
 }
 
-.hero-content h1 {
-  margin-top: 298px;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-left: 103px;
+  max-width: 617px;
 }
 
 .hero-content h3 {
