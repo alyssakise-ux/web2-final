@@ -109,9 +109,13 @@ header {
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  width: 478px;
+  margin-left: 103px;
+  padding-top: 286px;
+}
+
+.hero-content h3 {
+  margin-top: 40px !important;
 }
 
 .hero-subtag {
