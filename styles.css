@@ -109,9 +109,9 @@ header {
 }
 
 .hero-content {
-  width: 478px;
-  margin-left: 103px;
-  padding-top: 286px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .hero-content h3 {
