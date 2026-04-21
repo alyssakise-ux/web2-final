@@ -47,8 +47,7 @@ body {
 }
 
 .featured-gallery h2 {
-  margin-bottom: 65px;
-  margin-top: 65px;
+  margin: 0;
 }
 
 .featured-gallery-text {
@@ -60,6 +59,10 @@ body {
   background-color: #2e3927;
   height: 224px;
   width: 100vw;
+  
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
   text-align: center;
 }
 
