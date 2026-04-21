@@ -94,7 +94,6 @@ body {
 .featured-gallery-text {
   height: 94px;
   width: 617px;
-  padding-top: 17px;
 }
 
 .featured-gallery-top {
@@ -117,13 +116,12 @@ body {
 
 .gallery-items li {
   width: 400px;
-  padding-bottom: 17px;
-
 }
 
 .gallery-items img {
   width: 100%;
   display: block;
+  margin-bottom: 1.7rem;
 }
 
 .featured-gallery-text {
