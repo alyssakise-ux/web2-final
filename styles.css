@@ -55,6 +55,7 @@ a {
 .expectations-left {
   display: flex;
   flex-direction: column;
+  padding-right: 110px;
 }
 
 .expectations-left p + p {
