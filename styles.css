@@ -66,25 +66,15 @@ body {
   text-align: center;
 }
 
-.featured-gallery ul {
-  display: flex;
-  width: 1307px;
-  padding-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-between;
-}
-
 .gallery-items {
   display: flex;
-  justify-content: space-between;
+  gap: 53.5px;
   max-width: 1307px;
-  margin: 90px auto 0;
+  margin: 64px auto 46px;
 }
 
 .gallery-items li {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
 }
 
 .gallery-items img {
@@ -92,8 +82,9 @@ body {
   display: block;
 }
 
-
-
+.featured-gallery-text {
+  width: 100%;
+}
 
 /* HEADINGS */
 .yellow {
