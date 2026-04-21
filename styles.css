@@ -75,6 +75,23 @@ body {
   justify-content: space-between;
 }
 
+.gallery-items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1307px;
+  margin: 90px auto 0;
+}
+
+.gallery-items li {
+  flex: 1;
+  max-width: 400px;
+}
+
+.gallery-items img {
+  width: 100%;
+  display: block;
+}
+
 
 
 
