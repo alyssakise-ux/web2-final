@@ -65,7 +65,7 @@ body {
 
 .featured-gallery ul {
   display: flex;
-  width: 1307px;
+  max-width: 1307px;
   padding-top: 90px;
   margin-left: auto;
   margin-right: auto;
