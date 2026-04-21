@@ -10,6 +10,48 @@ a {
   text-decoration: none;
 }
 
+/* FEATURED GALLERY */
+.expectations-bg {
+  background-color: #2e3927;
+  height: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expectations {
+  background-color: #151c0d;
+  height: 600px;
+  width: 1307px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expectations-container {
+  width: 1084px;
+  height: 411px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 66px;
+  padding-right: 66px;
+
+  justify-content: space-between;
+}
+
+.expectations-left {
+  height: 411px;
+  width: 475px;
+}
+
+.about-us-p1 {
+  margin-bottom: 3.1rem;
+}
 
 /* BASE ELEMENTS */
 body {
