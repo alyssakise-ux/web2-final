@@ -48,7 +48,7 @@ body {
 
 .featured-gallery h2 {
   margin-bottom: 65px;
-  margin-top: 30px;
+  margin-top: 65px;
 }
 
 .featured-gallery-text {
@@ -65,7 +65,7 @@ body {
 
 .featured-gallery ul {
   display: flex;
-  max-width: 1307px;
+  width: 1307px;
   padding-top: 90px;
   margin-left: auto;
   margin-right: auto;
