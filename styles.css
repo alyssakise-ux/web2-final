@@ -11,6 +11,14 @@ a {
 }
 
 /* WHAT TO EXPECT */
+.expectations-left h2 {
+  margin-bottom: 4.1rem;
+}
+
+.expectations-p1 {
+  margin-bottom: 3.7rem;
+}
+
 .expectations-bg {
   background-color: #2e3927;
   height: 730px;
@@ -45,13 +53,14 @@ a {
 }
 
 .expectations-left {
-  height: 411px;
-  width: 475px;
+  display: flex;
+  flex-direction: column;
 }
 
-.about-us-p1 {
-  margin-bottom: 3.1rem;
+.expectations-left p + p {
+  margin-top: 3.7rem;
 }
+
 
 /* BASE ELEMENTS */
 body {
