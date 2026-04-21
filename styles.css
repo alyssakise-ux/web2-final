@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-/* FEATURED GALLERY */
+/* WHAT TO EXPECT */
 .expectations-bg {
   background-color: #2e3927;
   height: 730px;
@@ -85,7 +85,6 @@ body {
 /* FEATURED GALLERY */
 .featured-gallery {
   background-color: #151c0d;
-  height: 787px;
 }
 
 .featured-gallery h2 {
