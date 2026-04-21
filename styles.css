@@ -135,6 +135,30 @@ body {
   width: 100%;
 }
 
+/* FEATURED MENU */
+.featured-menu {
+  background-color: #2e3927;
+  height: 567px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-menu-text {
+  height: 60px;
+  padding-top: 2rem;
+}
+
+.featured-menu ul {
+  display: flex;
+  width: 1307px;
+  padding-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+
 /* HEADINGS */
 .yellow {
   color: #f6ba01;
