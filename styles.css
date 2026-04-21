@@ -117,6 +117,8 @@ body {
 
 .gallery-items li {
   width: 400px;
+  padding-bottom: 17px;
+
 }
 
 .gallery-items img {
