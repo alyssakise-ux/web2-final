@@ -138,7 +138,10 @@ body {
 /* FEATURED MENU */
 .featured-menu {
   background-color: #2E3927;
-  padding: 80px 0; 
+  height: 567px;          
+  display: flex;
+  align-items: center;   
+  justify-content: center;
 }
 
 .featured-menu-text {
@@ -150,7 +153,6 @@ body {
   display: flex;
   gap: 53.5px;
   max-width: 1307px;
-  margin: 0 auto; 
 }
 
 .tea-items li a {
