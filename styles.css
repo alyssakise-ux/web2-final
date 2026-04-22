@@ -101,15 +101,10 @@ body {
   margin: 0;
 }
 
-.featured-gallery-text {
-  height: 94px;
-  width: 617px;
-}
-
 .featured-gallery-top {
   background-color: #2e3927;
   height: 224px;
-  width: 100vw;
+  width: 100%;
   
   display: flex;
   align-items: center;     
@@ -128,6 +123,7 @@ body {
   display: flex;
   gap: 53.5px;
   max-width: 1307px;
+  margin: 0 auto;
 }
 
 .gallery-items li {
@@ -138,10 +134,6 @@ body {
   width: 100%;
   display: block;
   margin-bottom: 1.7rem;
-}
-
-.featured-gallery-text {
-  width: 100%;
 }
 
 /* FEATURED MENU */
