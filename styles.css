@@ -169,6 +169,41 @@ body {
   display: block;
 }
 
+/* FOOTER */
+footer {
+  background-color: #151c0d;
+  height: 314px;
+}
+ .footer-content {
+  width: 1311px;
+  height: 168px;
+  display: flex;
+  align-content: center;
+ }
+
+ .footer-left {
+  display: flex;
+  justify-content:left;
+  padding-right: 138px;
+  width: 422px;
+  height: 156px;
+ }
+
+ .footer-middle {
+  display: flex;
+  justify-content:center;
+  width: 438px;
+  height: 165px;
+ }
+
+  .footer-right {
+    display: flex;
+    justify-content:right;
+    padding-left: 180px;
+    width: 133px;
+    height: 168px;
+  }
+
 /* HEADINGS */
 .yellow {
   color: #f6ba01;
