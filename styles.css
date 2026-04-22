@@ -90,10 +90,11 @@ body {
 }
 
 /* FEATURED GALLERY */
-.featured-gallery {
+..featured-gallery {
   background-color: #151c0d;
   display: flex;
   flex-direction: column;
+  height: 787px;
 }
 
 .featured-gallery h2 {
@@ -127,7 +128,6 @@ body {
   display: flex;
   gap: 53.5px;
   max-width: 1307px;
-  margin: 0 auto;
 }
 
 .gallery-items li {
