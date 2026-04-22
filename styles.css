@@ -92,6 +92,8 @@ body {
 /* FEATURED GALLERY */
 .featured-gallery {
   background-color: #151c0d;
+  display: flex;
+  flex-direction: column;
 }
 
 .featured-gallery h2 {
@@ -115,14 +117,17 @@ body {
 }
 
 .featured-gallery-bottom {
-  padding-bottom: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .gallery-items {
   display: flex;
   gap: 53.5px;
   max-width: 1307px;
-  margin: 64px auto 0;
+  margin: 0 auto;
 }
 
 .gallery-items li {
