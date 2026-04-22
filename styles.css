@@ -90,7 +90,7 @@ body {
 }
 
 /* FEATURED GALLERY */
-..featured-gallery {
+.featured-gallery {
   background-color: #151c0d;
   display: flex;
   flex-direction: column;
