@@ -391,6 +391,16 @@ p {
   text-transform: none;
 }
 
+.footer-heading {
+  font-family: "Luxurious Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.6rem;
+  line-height: 3.24rem;
+  color: #e3e7c2;
+  text-transform: none;
+}
+
 /* SIDE NAV */
 .side-nav {
   display: flex;
