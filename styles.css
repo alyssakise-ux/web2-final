@@ -279,6 +279,33 @@ header {
   padding-top: 298px;
 }
 
+/* LARGE GALLERY */
+.largegallery1 {
+  width: 100vw;
+  height: 988px;
+  background-image: url("images/largegallery.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.largegallery1-content img {
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.largegallery1-tagline {
+  width: 475px;
+  height: 149px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 103px;
+}
+
 /* LISTS */
 li {
   list-style: none;
