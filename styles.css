@@ -287,23 +287,22 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
+
+  position: relative;
 }
 
-.largegallery1-content img {
-  width: 100%;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .largegallery1-tagline {
+  position: absolute;
+  bottom: 113px;  
+  left: 103px;
   width: 475px;
-  height: 149px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-right: 103px;
 }
 
 /* LISTS */
