@@ -345,21 +345,21 @@ li {
 
 /* LOGO */
 .logo {
-  margin-top: 0;
+  margin-top: 84px;
 }
 
-/* NAVIGATION */
+* NAVIGATION */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  height: 132px;
-  padding-bottom: 1.5rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul {
   display: flex;
+  height: 132px;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav li {
@@ -375,8 +375,9 @@ nav li a {
   font-weight: 400;
   font-style: normal;
   font-size: 1.7rem;
-  line-height: 2.1rem;
+  line-height: 2.6rem;
   color: #dbeee3;
+  margin-left: 5.5rem;
 }
 
 /* PARAGRAPHS */
@@ -403,7 +404,6 @@ p {
 /* SIDE NAV */
 .side-nav {
   display: flex;
-  gap: 5.5rem;
   margin-right: 64px;
 }
 
