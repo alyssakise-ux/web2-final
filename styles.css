@@ -59,6 +59,7 @@ body {
   max-width: 475px;
   display: flex;
   flex-direction: column;
+  padding-right: 111px;
 }
 
 .expectations-right {
