@@ -247,9 +247,8 @@ footer {
   text-decoration: none !important;
 }
 
-.footer a {
-  text-transform: none;
-  color: #DBEEE3;
+.footer-nav a {
+  color: #dbeee3;
 }
 
 /* HEADINGS */
