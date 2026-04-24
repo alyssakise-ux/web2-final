@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   margin: 0;
 }
@@ -25,7 +30,7 @@ body {
 
 .expectations-bg {
   background-color: #2e3927;
-  height: 730px;
+  min-height: 730px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +39,8 @@ body {
 .expectations {
   background-color: #151c0d;
   height: 600px;
-  width: 1307px;
+  max-width: 1307px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -42,7 +48,8 @@ body {
 }
 
 .expectations-container {
-  width: 1084px;
+  max-width: 1084px;
+  width: 100%;
   height: 411px;
   margin: 0 auto;
 
@@ -127,7 +134,8 @@ body {
 }
 
 .gallery-items li {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .gallery-items img {
@@ -156,6 +164,7 @@ body {
   display: flex;
   gap: 53.5px;
   max-width: 1307px;
+  width: 100%;
 }
 
 .tea-items li a {
@@ -177,7 +186,8 @@ footer {
 }
 
 .footer-content {
-  width: 1310px;
+  max-width: 1310px;
+  width: 100%;
   margin: 0 auto;
 
   display: flex;
@@ -204,11 +214,13 @@ footer {
 
 .footer-left {
   gap: 1.5rem;
-  width: 422px;
+  max-width: 422px;
+  width: 100%;
 }
 
 .footer-left h3 {
   max-width: 422px;
+  width: 100%;
 }
 
 .footer-middle {
@@ -216,7 +228,8 @@ footer {
   flex-direction: column;
   gap: 1.2rem;
   align-items: flex-start;
-  width: 438px;
+  max-width: 438px;
+  width: 100%;
 }
 
 .footer-middle p {
@@ -298,7 +311,7 @@ h4 {
 
 /* HEADER */
 header {
-  width: 100vw;
+  width: 100%;
   background-color: #787c73;
   background-image: url("images/banner-bg-pic.png");
   background-repeat: no-repeat;
@@ -310,8 +323,8 @@ header {
 
 /* HERO */
 .hero {
-  width: 100vw;
-  height: 805px;
+  width: 100%;
+  min-height: 805px;
   background-image: url("images/herobg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -335,6 +348,7 @@ header {
 
   margin-left: 103px;
   max-width: 617px;
+  width: 100%;
 }
 
 .hero-content h3 {
@@ -342,21 +356,23 @@ header {
 }
 
 .hero-subtag {
-  width: 555px;
+  max-width: 555px;
+  width: 100%;
   height: 63px;
   padding-top: 30px;
 }
 
 .hero-tagline {
-  width: 617px;
+  max-width: 617px;
+  width: 100%;
   height: 158px;
   padding-top: 298px;
 }
 
 /* LARGE GALLERY */
 .largegallery1 {
-  width: 100vw;
-  height: 988px;
+   width: 100%;
+  min-height: 988px;
   background-image: url("images/largegallery.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -376,7 +392,8 @@ header {
   position: absolute;
   bottom: 113px;  
   left: 103px;
-  width: 475px;
+  max-width: 475px;
+  width: 100%;
 }
 
 /* LISTS */
@@ -479,3 +496,132 @@ h4-color: #A9A88E
 paragraph-color: #A9A88E
 footer-paragraph-color: #585777
 */
+
+@media (max-width: 768px) {
+
+/* NAVIGATION */
+nav ul {
+  flex-direction: column;
+  height: auto;
+  gap: 10px;
+}
+
+.side-nav {
+  flex-direction: column;
+  margin-right: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+nav li a {
+  margin-left: 0;
+}
+
+/* HERO */
+.hero {
+  min-height: auto;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  margin-left: 0;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* TEXT STYLES */
+h1 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
+
+/* FEATURED GALLERY */
+.gallery-items {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.gallery-items li {
+  max-width: 100%;
+  max-width: 350px;
+}
+
+/* WHAT TO EXPECT */
+.expectations-container {
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.expectations-left, .expectations-right {
+  width: 100%;
+}
+
+.expectations-bg {
+  padding: 40px 0;
+}
+
+/* FEATURED MENU */
+.tea-items {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.tea-items li {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* LARGE GALLERY */
+.largegallery1 {
+  min-height: auto;
+  padding: 60px 20px;
+}
+
+.largegallery1-tagline {
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+
+.arrow {
+  display: none;
+}
+
+/* FOOTER */
+.footer-content {
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-nav {
+  flex-direction: column;
+  gap: 10px;
+}
+  
+
+
+}
