@@ -177,14 +177,12 @@ footer {
 }
 
 .footer-content {
-  width: 1311px;
-  height: 167.32px;
+  width: 1310px;
   margin: 0 auto;
 
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-
-  gap: 138px;
 }
 
 .footer-left,
@@ -212,7 +210,6 @@ footer {
 }
 
 .footer-right {
-  margin-left: 42px;
   display: flex;
   align-items: center;
 }
@@ -229,6 +226,7 @@ footer {
 
 .footer-nav li a {
   margin-left: 0;
+  text-decoration: none !important;
 }
 
 /* HEADINGS */
