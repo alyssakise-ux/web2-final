@@ -198,7 +198,7 @@ footer {
 }
 
 .footer-left h3 {
-  max-width: 420px;
+  max-width: 422px;
 }
 
 .footer-middle {
@@ -206,7 +206,7 @@ footer {
   flex-direction: column;
   gap: 1.2rem;
   align-items: flex-start;
-  width: 165px;
+  width: 438px;
 }
 
 .footer-right {
