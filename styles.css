@@ -209,6 +209,10 @@ footer {
   width: 438px;
 }
 
+.footer-middle p {
+  max-width: 100%;
+}
+
 .footer-right {
   display: flex;
   align-items: center;
@@ -220,8 +224,12 @@ footer {
 
 .footer-nav {
   display: flex;
-  gap: 3rem;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-nav li {
+  flex: 1;
 }
 
 .footer-nav li a {
