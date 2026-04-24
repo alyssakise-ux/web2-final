@@ -175,7 +175,7 @@ body {
   justify-content: center;
   gap: 97.8px;
   max-width: 1307px;
-  width: 100%;
+  margin: 0 auto;
 }
 
 .tea-items li a {
