@@ -186,7 +186,8 @@ footer {
 }
 
 .footer-heading {
-  height: 63px;
+  font-size: 4.6rem;
+  line-height: 1.25;
 }
 
 .footer-left,
