@@ -235,7 +235,6 @@ footer {
   align-items: flex-start;
   max-width: 438px;
   width: 100%;
-  min-height: 165px;
 }
 
 .footer-middle p {
@@ -259,6 +258,7 @@ footer {
 
 .footer-nav li {
   flex: 1;
+  padding-bottom: 50px;
 }
 
 .footer-nav li a {
