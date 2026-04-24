@@ -185,7 +185,7 @@ footer {
   align-items: flex-start;
 }
 
-.footer-heading {
+.footer-left .footer-heading {
   font-size: 4.6rem;
   line-height: 1.25;
   font-family: "Luxurious Roman", serif;
@@ -249,6 +249,7 @@ footer {
 
 .footer a {
   text-transform: none;
+  color: #DBEEE3;
 }
 
 /* HEADINGS */
