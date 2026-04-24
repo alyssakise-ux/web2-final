@@ -548,37 +548,32 @@ nav .btn {
 
 /* HERO */
 .hero {
-  position: relative;
   display: flex;
   align-items: flex-start;
 
   min-height: 460px;
 
-  padding: 40px 0px;
+  padding: 40px 27px;
+
   background-position: left center;
 }
 
 .hero-content {
-  position: absolute;
-  top: 71px;
-  left: 27px;
   max-width: 200px;
   text-align: left;
+  margin-top: 20px;
+
 }
 
 .hero-content h1 {
-  margin-bottom: 10px;
-  margin-bottom: 57px;
+  margin-bottom: 8px;
+
 }
 
 .hero-content h3 {
   margin-top: 10px;
   line-height: 1.8rem;
   font-weight: 500;
-}
-
-.hero-content h3 br + text {
-  opacity: 08;
 }
 
 /* TEXT STYLES */
