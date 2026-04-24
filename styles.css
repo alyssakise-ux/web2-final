@@ -188,6 +188,11 @@ footer {
 .footer-heading {
   font-size: 4.6rem;
   line-height: 1.25;
+  font-family: "Luxurious Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #cfcdae;
+  text-transform: none;
 }
 
 .footer-left,
@@ -240,6 +245,10 @@ footer {
 .footer-nav li a {
   margin-left: 0;
   text-decoration: none !important;
+}
+
+.footer a {
+  text-transform: none;
 }
 
 /* HEADINGS */
