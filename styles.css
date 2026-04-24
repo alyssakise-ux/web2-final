@@ -53,7 +53,7 @@ body {
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 60px;
 
   padding-left: 66px;
@@ -62,13 +62,26 @@ body {
 
 .expectations-right img {
   width: 100%;
+  max-width: 600px;
   height: auto;
   display: block;
+}
+
+.expectations-right {
+  flex: 1;
+  min-width: 0;
 }
 
 .expectations-left {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  max-width: 475px;
+}
+
+.expectations-left,
+.expectations-right {
+  flex: 1;
 }
 
 /* BASE ELEMENTS */
