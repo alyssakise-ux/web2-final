@@ -555,11 +555,12 @@ nav .btn {
   min-height: 460px;
 
   padding: 40px 0px;
+  background-position: left center;
 }
 
 .hero-content {
   position: absolute;
-  top: 49px;
+  top: 71px;
   left: 27px;
   max-width: 200px;
   text-align: left;
@@ -567,11 +568,17 @@ nav .btn {
 
 .hero-content h1 {
   margin-bottom: 10px;
+  margin-bottom: 57px;
 }
 
 .hero-content h3 {
   margin-top: 10px;
   line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.hero-content h3 br + text {
+  opacity: 08;
 }
 
 /* TEXT STYLES */
