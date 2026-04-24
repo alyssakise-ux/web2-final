@@ -172,7 +172,8 @@ body {
 
 .tea-items {
   display: flex;
-  gap: 53.5px;
+  justify-content: center;
+  gap: 97.8px;
   max-width: 1307px;
   width: 100%;
 }
