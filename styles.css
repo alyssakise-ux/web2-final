@@ -343,18 +343,19 @@ header {
   align-items: center;
 }
 
-.hero-content h1 {
-    font-size: 4.9rem;
-    line-height: 5.3rem;
-  }
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 617px; 
+}
 
 .hero-content {
   display: flex;
   flex-direction: column;
   gap: 60px;
 
-  width: 204px;
-  max-width: 204px;
+  max-width: 617px;
+  width: 100%;
 }
 
 .hero-subtag {
@@ -409,10 +410,6 @@ li {
 }
 
 * NAVIGATION */
-header {
-  width: 100%;
-}
-
 nav {
   width: 100%;
   padding-left: 27px;
@@ -518,6 +515,10 @@ section {
 
 
 /* NAVIGATION */
+header {
+  width: 100%;
+}
+
 nav ul {
   flex-direction: column;
   height: auto;
@@ -549,16 +550,15 @@ nav .btn {
 
 /* HERO */
 .hero {
-  display: flex;
+   display: flex;
 
-  justify-content: flex-start;
-  align-items: flex-end;      
+  justify-content: flex-start; 
+  align-items: center;
 
-  min-height: 90vh;;
+  min-height: 90vh;
 
   padding-left: 27px;
   padding-right: 27px;
-  padding-bottom: 40px;
 
   background-position: center;
 }
