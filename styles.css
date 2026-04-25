@@ -620,12 +620,12 @@ p {
 }
 
 .featured-gallery-top h2 {
-  max-width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
   text-align: center;}
 
 .featured-gallery-top h2 span {
-  display: block;
-  margin-top: 10px; 
+  display: inline;
 }
 
 .gallery-items {
