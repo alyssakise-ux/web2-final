@@ -346,7 +346,11 @@ header {
 .hero-content {
   display: flex;
   flex-direction: column;
-  max-width: 617px; 
+
+  gap: 24px;
+
+  max-width: 800px;
+  width: 100%;
 }
 
 .hero-content {
