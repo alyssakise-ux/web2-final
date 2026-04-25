@@ -554,14 +554,13 @@ nav .btn {
   justify-content: flex-start;
   align-items: flex-end;      
 
-  min-height: 460px;
+  min-height: 90vh;;
 
   padding-left: 27px;
   padding-right: 27px;
   padding-bottom: 40px;
 
-  background-position: left center;
-}
+background-position: left bottom;}
 
 .hero-content {
   max-width: 200px;
