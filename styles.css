@@ -569,12 +569,11 @@ background-position: left bottom;}
 }
 
 .hero-content h1 {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 
 }
 
 .hero-content h3 {
-  margin-top: 10px;
   line-height: 1.8rem;
   font-weight: 500;
 }
