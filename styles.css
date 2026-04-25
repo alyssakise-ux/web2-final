@@ -550,14 +550,15 @@ nav .btn {
 /* HERO */
 .hero {
   display: flex;
-  align-items: flex-start;
 
-  margin-left: 0;
+  justify-content: flex-start;
+  align-items: flex-end;      
 
   min-height: 460px;
 
   padding-left: 27px;
   padding-right: 27px;
+  padding-bottom: 40px;
 
   background-position: left center;
 }
@@ -565,7 +566,6 @@ nav .btn {
 .hero-content {
   max-width: 200px;
   text-align: left;
-  margin-top: 20px;
 
 }
 
