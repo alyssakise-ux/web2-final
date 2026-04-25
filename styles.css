@@ -561,7 +561,11 @@ background-position: left bottom;}
 .hero-content {
   max-width: 200px;
   text-align: left;
-  gap: 5px;
+  gap: 2px;
+}
+
+.hero-content h1 {
+    line-height: 1.1;
 }
 
 .hero-content h3 {
