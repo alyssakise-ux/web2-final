@@ -343,19 +343,18 @@ header {
   align-items: center;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  max-width: 617px; 
-}
+.hero-content h1 {
+    font-size: 4.9rem;
+    line-height: 5.3rem;
+  }
 
 .hero-content {
   display: flex;
   flex-direction: column;
   gap: 60px;
 
-  max-width: 617px;
-  width: 100%;
+  width: 204px;
+  max-width: 204px;
 }
 
 .hero-subtag {
@@ -410,10 +409,15 @@ li {
 }
 
 * NAVIGATION */
+header {
+  width: 100%;
+}
+
 nav {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 27px;
+  padding-right: 27px;
+  box-sizing: border-box;
 }
 
 nav ul {
