@@ -335,6 +335,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-left: 27px;
+  padding-right: 27px;
 
   display: flex;
   align-items: center;
@@ -343,7 +345,6 @@ header {
 .hero-content {
   display: flex;
   flex-direction: column;
-  margin-left: 103px;
   max-width: 617px; 
 }
 
