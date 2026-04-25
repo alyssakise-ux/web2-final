@@ -598,8 +598,8 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
 }
 
 h3 {
@@ -614,15 +614,20 @@ p {
 
 /* FEATURED GALLERY */
 .featured-gallery-top {
-  height: auto;
+  height: 0 auto;
   padding: 40px 20px;
-  max-width: 240px;
+  width: 100%;
 
 }
 
 .featured-gallery-top h2 {
-  max-width: 320px;
+  max-width: 304px;
   margin: 0 auto;
+}
+
+.featured-gallery-top h2 span {
+  display: block;
+  margin-top: 6px; 
 }
 
 .gallery-items {
