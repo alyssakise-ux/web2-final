@@ -560,7 +560,8 @@ nav .btn {
   padding-right: 27px;
   padding-bottom: 40px;
 
-background-position: left bottom;}
+  background-position: center;
+}
 
 .hero-content {
   max-width: 200px;
