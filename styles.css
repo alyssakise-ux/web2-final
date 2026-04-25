@@ -358,10 +358,6 @@ header {
   width: 100%;
 }
 
-.hero-content h3 {
-  margin-top: 20px !important;
-}
-
 .hero-subtag {
   max-width: 555px;
   width: 100%;
@@ -565,7 +561,7 @@ background-position: left bottom;}
 .hero-content {
   max-width: 200px;
   text-align: left;
-
+  gap: 10px;
 }
 
 .hero-content h3 {
