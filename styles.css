@@ -579,8 +579,11 @@ nav .btn {
 }
 
 .hero-content h3 {
+  max-width: 260px;
   line-height: 1.8rem;
-  font-weight: 500;
+
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 /* TEXT STYLES */
