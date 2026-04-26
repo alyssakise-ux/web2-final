@@ -694,19 +694,19 @@ p {
 
 /* FOOTER */
 footer {
-  padding: 60px 20px;
+  padding: 60px 27px;
 }
 
 .footer-content {
   flex-direction: column;
   gap: 40px;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .footer-left, .footer-middle, .footer-right {
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-left,
@@ -715,14 +715,20 @@ footer {
   width: 100%;
 }
 
+.footer-left {
+  margin-bottom: 10px;
+}
+
 .footer-middle {
-  align-items: center;
+  align-items: left;
+  margin-bottom: 10px;
+
 }
 
 .footer-nav {
   flex-direction: column;
   gap: 16px;
-  align-items: center;
+  align-items: flex-start;
 }
   
 .footer-nav li {
