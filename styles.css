@@ -693,10 +693,15 @@ p {
 }
 
 /* FOOTER */
+footer {
+  padding: 60px 20px;
+}
+
 .footer-content {
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
   align-items: center;
+  text-align: center;
 }
 
 .footer-left, .footer-middle, .footer-right {
@@ -704,11 +709,24 @@ p {
   text-align: center;
 }
 
+.footer-left,
+.footer-middle {
+  max-width: 320px;
+  width: 100%;
+}
+
+.footer-middle {
+  align-items: center;
+}
+
 .footer-nav {
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
+  align-items: center;
 }
   
-
+.footer-nav li {
+  padding-bottom: 0;
+}
 
 }
