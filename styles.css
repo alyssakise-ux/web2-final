@@ -675,13 +675,17 @@ p {
 /* LARGE GALLERY */
 .largegallery1 {
   min-height: auto;
-  padding: 60px 20px;
+  padding: 60px 27px;
 }
 
 .largegallery1-tagline {
   position: static;
-  text-align: center;
-  width: 100%;
+  text-align: left;
+  width: 210px;
+}
+
+.largegallery1-tagline h1 {
+  line-height: 1.1;
 }
 
 .arrow {
