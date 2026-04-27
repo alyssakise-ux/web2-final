@@ -567,12 +567,13 @@ nav .btn {
    display: flex;
 
   justify-content: flex-start; 
-  align-items: center;
+  align-items: flex-end;
 
   min-height: 90vh;
 
   padding-left: 27px;
   padding-right: 27px;
+  padding-bottom: 40px;
 
   background-position: center;
 }
