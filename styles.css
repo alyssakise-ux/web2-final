@@ -736,6 +736,11 @@ footer {
 
 }
 
+.footer-right {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .footer-nav {
   flex-direction: column;
   gap: 16px;
