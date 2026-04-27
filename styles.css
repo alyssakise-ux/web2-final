@@ -738,7 +738,7 @@ footer {
 
 .footer-right {
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: left;
 }
 
 .footer-nav {
