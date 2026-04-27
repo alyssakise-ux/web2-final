@@ -751,4 +751,9 @@ footer {
   padding-bottom: 0;
 }
 
+.footer-right .logo {
+  display: block;
+  margin: 0;
+}
+
 }
