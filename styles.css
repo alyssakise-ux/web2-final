@@ -593,6 +593,10 @@ nav .btn {
   font-weight: 500;
 }
 
+.hero-content h3 br {
+  display: none;
+}
+
 /* TEXT STYLES */
 header {
   height: auto;
