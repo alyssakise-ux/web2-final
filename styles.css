@@ -572,7 +572,7 @@ nav .btn {
 
   min-height: 90vh;
 
-  padding: 0 27px 100px;
+  padding: 0 27px 40px;
 
   background-position: 0% center !important;
 }
@@ -581,6 +581,7 @@ nav .btn {
   max-width: 290px;
   text-align: left;
   gap: 2px;
+  margin-bottom: 80px;
 }
 
 .hero-content h1 {
