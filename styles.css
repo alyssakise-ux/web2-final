@@ -581,6 +581,7 @@ nav .btn {
   max-width: 290px;
   text-align: left;
   gap: 2px;
+  padding-bottom: 20px;
 }
 
 .hero-content h1 {
