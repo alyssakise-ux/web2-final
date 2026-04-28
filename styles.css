@@ -578,7 +578,7 @@ nav .btn {
 }
 
 .hero-content {
-  max-width: 264px;
+  max-width: 265px;
   text-align: left;
   gap: 2px;
 }
@@ -588,6 +588,7 @@ nav .btn {
 }
 
 .hero-content h3 {
+  max-width: 265px;
   line-height: 1.8rem;
   font-weight: 500;
 }
